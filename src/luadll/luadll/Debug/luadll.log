@@ -1,0 +1,69 @@
+﻿  lapi.c
+  lauxlib.c
+  lbaselib.c
+  lcode.c
+  ldblib.c
+  ldebug.c
+  ldo.c
+  ldump.c
+  lfunc.c
+  lgc.c
+  linit.c
+  liolib.c
+  llex.c
+  lmathlib.c
+  lmem.c
+  loadlib.c
+  lobject.c
+  lopcodes.c
+  loslib.c
+  lparser.c
+  正在生成代码...
+  正在编译...
+  lstate.c
+  lstring.c
+  lstrlib.c
+  ltable.c
+  ltablib.c
+  ltm.c
+  lua.c
+  luac.c
+  lundump.c
+  lvm.c
+  lzio.c
+  print.c
+  正在生成代码...
+    正在创建库 ../../lib/luadll.lib 和对象 ../../lib/luadll.exp
+LINK : warning LNK4217: 符号“_lua_close”(在“ lstate.obj”中定义)已由“lua.obj”(函数“_rmain”中)导入
+LINK : warning LNK4217: 符号“_lua_gettop”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_docall”中)导入
+LINK : warning LNK4217: 符号“_lua_settop”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_dotty”中)导入
+LINK : warning LNK4217: 符号“_lua_pushvalue”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_traceback”中)导入
+LINK : warning LNK4217: 符号“_lua_remove”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_docall”中)导入
+LINK : warning LNK4217: 符号“_lua_insert”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_docall”中)导入
+LINK : warning LNK4217: 符号“_lua_isstring”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_traceback”中)导入
+LINK : warning LNK4217: 符号“_lua_type”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_report”中)导入
+LINK : warning LNK4217: 符号“_lua_tolstring”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_dotty”中)导入
+LINK : warning LNK4217: 符号“_lua_objlen”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_loadline”中)导入
+LINK : warning LNK4217: 符号“_lua_touserdata”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_pmain”中)导入
+LINK : warning LNK4217: 符号“_lua_pushinteger”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_traceback”中)导入
+LINK : warning LNK4217: 符号“_lua_pushlstring”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_loadline”中)导入
+LINK : warning LNK4217: 符号“_lua_pushstring”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_dolibrary”中)导入
+LINK : warning LNK4217: 符号“_lua_pushfstring”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_dotty”中)导入
+LINK : warning LNK4217: 符号“_lua_pushcclosure”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_docall”中)导入
+LINK : warning LNK4217: 符号“_lua_getfield”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_dolibrary”中)导入
+LINK : warning LNK4217: 符号“_lua_createtable”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_getargs”中)导入
+LINK : warning LNK4217: 符号“_lua_setfield”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_handle_script”中)导入
+LINK : warning LNK4217: 符号“_lua_rawseti”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_getargs”中)导入
+LINK : warning LNK4217: 符号“_lua_call”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_traceback”中)导入
+LINK : warning LNK4217: 符号“_lua_pcall”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_docall”中)导入
+LINK : warning LNK4217: 符号“_lua_cpcall”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_rmain”中)导入
+LINK : warning LNK4217: 符号“_lua_gc”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_docall”中)导入
+LINK : warning LNK4217: 符号“_lua_concat”(在“ lapi.obj”中定义)已由“lua.obj”(函数“_loadline”中)导入
+LINK : warning LNK4217: 符号“_lua_sethook”(在“ ldebug.obj”中定义)已由“lua.obj”(函数“_laction”中)导入
+LINK : warning LNK4217: 符号“_luaL_checkstack”(在“ lauxlib.obj”中定义)已由“lua.obj”(函数“_getargs”中)导入
+LINK : warning LNK4217: 符号“_luaL_error”(在“ lauxlib.obj”中定义)已由“lua.obj”(函数“_lstop”中)导入
+LINK : warning LNK4217: 符号“_luaL_loadfile”(在“ lauxlib.obj”中定义)已由“lua.obj”(函数“_dofile”中)导入
+LINK : warning LNK4217: 符号“_luaL_loadbuffer”(在“ lauxlib.obj”中定义)已由“lua.obj”(函数“_dostring”中)导入
+LINK : warning LNK4217: 符号“_luaL_newstate”(在“ lauxlib.obj”中定义)已由“lua.obj”(函数“_rmain”中)导入
+LINK : warning LNK4217: 符号“_luaL_openlibs”(在“ linit.obj”中定义)已由“lua.obj”(函数“_pmain”中)导入
+  luadll.vcxproj -> D:\code\src\bin\luadll.dll
